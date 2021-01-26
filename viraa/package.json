@@ -1,0 +1,43 @@
+{
+  "name": "set",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/netinfo": "^4.6.1",
+    "axios": "^0.20.0",
+    "native-base": "^2.13.8",
+    "react": "16.13.1",
+    "react-native": "0.63.3",
+    "react-native-camera-kit": "^8.0.2",
+    "react-native-elements": "^2.3.2",
+    "react-native-image-picker": "^2.2.1",
+    "react-native-ionicons": "^4.6.4",
+    "react-native-safe-area-context": "^3.1.8",
+    "react-native-safe-area-view": "^1.1.1",
+    "react-native-super-grid": "^1.0.4",
+    "react-native-vector-icons": "^7.1.0",
+    "react-navigation": "^2.18.3",
+    "rn-fetch-blob": "^0.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/runtime": "^7.11.2",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.5.2",
+    "eslint": "^7.11.0",
+    "jest": "^26.5.2",
+    "metro-react-native-babel-preset": "^0.63.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

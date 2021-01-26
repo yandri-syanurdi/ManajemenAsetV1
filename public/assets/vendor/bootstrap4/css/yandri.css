@@ -1,0 +1,23 @@
+.yandri {
+    /* margin-left: 345px; */
+    align-items: center;
+    background-color: green;
+    
+}
+
+.yandriz {
+    margin-left: 330px;
+    background-color: blue;
+}
+
+.atas {
+    /* margin-top: 100px; */
+}
+
+a : {
+    background-color: #15477A;
+    color: #F2C808;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
